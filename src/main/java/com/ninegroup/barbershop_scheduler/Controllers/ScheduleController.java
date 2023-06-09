@@ -17,7 +17,7 @@ import com.ninegroup.barbershop_scheduler.Entities.Schedule;
 import com.ninegroup.barbershop_scheduler.Repositories.ScheduleRepository;
 
 @RestController
-@RequestMapping("/api/schedule")
+@RequestMapping("/api/schedules")
 public class ScheduleController {
     @Autowired
     private ScheduleRepository scheduleRepository;

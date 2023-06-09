@@ -1,7 +1,7 @@
 # Projeto para Seminário Uniasselvi
 * Api desenvolvida para seminário Uniasselvi para criação de aplicação web com Java
 
-* A ideia do grupo foi criar um sistema simples de marcação de horário em uma barbearia passando o nome da pessoa e dia/hora.
+* A ideia do grupo foi criar um sistema simples de marcação de horário em uma barbearia passando o nome da pessoa, uma breve descrição e dia/hora.
 
 # Iniciar
 * Basta baixar o repositório e instalar o JAVA 17(Versão mínima) para rodar o projeto.

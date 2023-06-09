@@ -28,6 +28,9 @@ public class Schedule {
     private String name;
 
     @Column
+    private String description;
+
+    @Column
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy HH:mm", locale = "pt_BR", timezone = "America/Sao_Paulo")
     @JsonDeserialize(using = CustomLocalDateTimeDeserializer.class)
     private LocalDateTime schedule;
